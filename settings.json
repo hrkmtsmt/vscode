@@ -1,0 +1,54 @@
+{
+  // NeoVim
+  "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/hrkmtsmt/.config/nvim/init.vim",
+  "vscode-neovim.revealCursorScrollLine": true,
+  // Terminal
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontSize": 16,
+  // Editor
+  "editor.fontFamily": "'JetBrains Mono', 'GenJyuuGothic-Monospace-Regular', monospace",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.find.cursorMoveOnType": false,
+  "editor.dragAndDrop": false,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Work Bench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "2077",
+  "workbench.startupEditor": "none",
+  //
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  //  Other
+  "security.workspace.trust.untrustedFiles": "open",
+  "scm.inputFontSize": 12,
+  // Prettier
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 120,
+  "prettier.semi": true,
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "avoid",
+  // Emmet
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.variables": {
+    "lang": "ja"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "filters": "html,c"
+    }
+  },
+  "material-icon-theme.activeIconPack": "react",
+  "redhat.telemetry.enabled": true
+}
+
