@@ -6,7 +6,7 @@
 rm ~/Library/"Application Support"/Code/User/settings.json
 
 # Clone settings.json
-git clone
+git clone git@github.com:hrkmtsmt/vscode.git
 
 # Create symbolic settigs.json
 cd <clone-dir>
