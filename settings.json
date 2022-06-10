@@ -1,7 +1,7 @@
 {
   // NeoVim
   "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
-  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/hrkmtsmt/.config/nvim/init.vim",
+  "vscode-neovim.neovimInitVimPaths.darwin": "/Users/${env:USERNAME}/.config/nvim/init.vim",
   "vscode-neovim.revealCursorScrollLine": true,
   // Terminal
   "terminal.external.osxExec": "iTerm.app",
@@ -49,6 +49,8 @@
     }
   },
   "material-icon-theme.activeIconPack": "react",
-  "redhat.telemetry.enabled": true
+  "redhat.telemetry.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Indent Rainbow
+  "indentRainbow.colors": ["rgba(255, 210, 0, 0.1)", "rgba(255, 0, 165, 0.1)", "rgba(0, 255, 255, 0.1)"]
 }
-
