@@ -52,5 +52,12 @@
   "redhat.telemetry.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   // Indent Rainbow
-  "indentRainbow.colors": ["rgba(255, 210, 0, 0.1)", "rgba(255, 0, 165, 0.1)", "rgba(0, 255, 255, 0.1)"]
+  "indentRainbow.colors": [
+    "rgba(255, 210, 0, 0.1)",
+    "rgba(255, 0, 165, 0.1)",
+    "rgba(0, 255, 255, 0.1)"
+  ],
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  }
 }
